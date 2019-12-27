@@ -36,6 +36,7 @@
 void
 init(void)
 {
+     setlocale(LC_TIME, "");
      struct sigaction sig;
      ttyclock.bg = COLOR_BLACK;
 
