@@ -45,6 +45,7 @@
 #include <ncurses.h>
 #include <unistd.h>
 #include <getopt.h>
+#include <locale.h>
 
 /* Macro */
 #define NORMFRAMEW 35
